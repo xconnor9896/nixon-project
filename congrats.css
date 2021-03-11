@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    cursor: url(./media/usFlag.png), auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333333;
+    overflow: hidden;
+    cursor: url("media/usFlag.png");
+    position: relative;
+} 
+
+h1 {
+    color: #eee;
+}
+
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
